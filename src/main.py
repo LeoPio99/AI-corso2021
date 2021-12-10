@@ -12,3 +12,5 @@ print(math.cos(1))
 h='hello'
 print(h+h)
 print(h[1:4])
+k='ciao\tciao'
+print(k)
