@@ -14,3 +14,11 @@ print(h+h)
 print(h[1:4])
 k='ciao\tciao'
 print(k)
+
+beppe=list(range(5))
+print('Initial beppe: ', beppe)
+for i in list(range(5,7)):
+beppe.append(i)
+print ('Append: ', beppe)
+beppe.pop()
+print ('Pop: ', beppe)
