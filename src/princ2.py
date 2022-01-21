@@ -18,6 +18,16 @@ v2=np.array([10,20,30])
 print(v1*v2)
 print(np.dot(v1,v2))
 
+a=np.arange(25)
+a=a.reshape((5,5)) 
+print(a)
+
+a=np.arange(5)
+a: [0,1,2,3,4]
+b=a
+b[0]=100
+print ("a:", a , "b:" , b)
+
 x=np.arange(1,5)
 def func_NumPy(x):
  r = x.copy() #allocate result array
